@@ -14,7 +14,7 @@ repositories {
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
     testImplementation(kotlin("test"))
-    testImplementation("io.kotest:kotest-assertions-core:4.6.4")
+    testImplementation("io.kotest:kotest-assertions-core:5.5.4")
 }
 
 tasks.test {
